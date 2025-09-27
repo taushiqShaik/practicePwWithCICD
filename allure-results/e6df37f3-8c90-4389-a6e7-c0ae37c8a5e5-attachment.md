@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13] [cursor=pointer]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23] [cursor=pointer]:
+              - img [ref=e25] [cursor=pointer]
+              - text: Elements
+            - img [ref=e30] [cursor=pointer]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - generic [ref=e43] [cursor=pointer]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49] [cursor=pointer]
+              - generic [ref=e51] [cursor=pointer]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53] [cursor=pointer]
+              - generic [ref=e55] [cursor=pointer]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65] [cursor=pointer]
+              - generic [ref=e67] [cursor=pointer]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69] [cursor=pointer]
+              - generic [ref=e71] [cursor=pointer]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75] [cursor=pointer]:
+            - img [ref=e77] [cursor=pointer]
+            - text: Forms
+          - img [ref=e83] [cursor=pointer]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90] [cursor=pointer]:
+            - img [ref=e92] [cursor=pointer]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97] [cursor=pointer]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104] [cursor=pointer]:
+            - img [ref=e106] [cursor=pointer]
+            - text: Widgets
+          - img [ref=e111] [cursor=pointer]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - text: Interactions
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132] [cursor=pointer]:
+            - img [ref=e134] [cursor=pointer]
+            - text: Book Store Application
+          - img [ref=e139] [cursor=pointer]
+      - generic [ref=e143]:
+        - text: Please select an item from left to start practice.
+        - iframe [ref=e147]:
+          
+      - generic [ref=e152]:
+        - img "Build PlayWright tests with AI" [ref=e154] [cursor=pointer]
+        - iframe [ref=e157]:
+          - generic [ref=f3e7] [cursor=pointer]:
+            - link [ref=f3e8] [cursor=pointer]:
+              - /url: https://clck.mgid.com/ghits/24853973/i/58092113/0/pp/1/17?h=4jzDx9yY5CkNwNTSsfbnXbTdqJR9SucieaAtsTBZR6dTs9CAcCMARrVHEO72KBHKSr0awgNsrxOk-pKIdY7ualauIqe7tdHzi2DN_yguBrdaBMH7360A-QLW1lqsdb47&rid=0eaf0a65-9b69-11f0-b14d-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=XSexv4R9dNKoGxFYdxhrkTotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TtkLn7pLwpeJMNUt8xsrhgg**
+            - generic [ref=f3e9] [cursor=pointer]:
+              - link [ref=f3e11] [cursor=pointer]:
+                - /url: https://clck.mgid.com/ghits/24853973/i/58092113/0/pp/1/17?h=4jzDx9yY5CkNwNTSsfbnXbTdqJR9SucieaAtsTBZR6dTs9CAcCMARrVHEO72KBHKSr0awgNsrxOk-pKIdY7ualauIqe7tdHzi2DN_yguBrdaBMH7360A-QLW1lqsdb47&rid=0eaf0a65-9b69-11f0-b14d-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=XSexv4R9dNKoGxFYdxhrkTotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TtkLn7pLwpeJMNUt8xsrhgg**
+              - generic [ref=f3e14] [cursor=pointer]:
+                - link "Halo Care Glaze 2-In-1 Moisturizer Sunscreen SPF 30 For Men" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24853973/i/58092113/0/pp/1/17?h=4jzDx9yY5CkNwNTSsfbnXbTdqJR9SucieaAtsTBZR6dTs9CAcCMARrVHEO72KBHKSr0awgNsrxOk-pKIdY7ualauIqe7tdHzi2DN_yguBrdaBMH7360A-QLW1lqsdb47&rid=0eaf0a65-9b69-11f0-b14d-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=XSexv4R9dNKoGxFYdxhrkTotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TtkLn7pLwpeJMNUt8xsrhgg**
+                - link "Amazon" [ref=f3e18] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24853973/i/58092113/0/pp/1/17?h=4jzDx9yY5CkNwNTSsfbnXbTdqJR9SucieaAtsTBZR6dTs9CAcCMARrVHEO72KBHKSr0awgNsrxOk-pKIdY7ualauIqe7tdHzi2DN_yguBrdaBMH7360A-QLW1lqsdb47&rid=0eaf0a65-9b69-11f0-b14d-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=XSexv4R9dNKoGxFYdxhrkTotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TtkLn7pLwpeJMNUt8xsrhgg**
+                - link [ref=f3e19] [cursor=pointer]:
+                  - /url: https://clck.mgid.com/ghits/24853973/i/58092113/0/pp/1/17?h=4jzDx9yY5CkNwNTSsfbnXbTdqJR9SucieaAtsTBZR6dTs9CAcCMARrVHEO72KBHKSr0awgNsrxOk-pKIdY7ualauIqe7tdHzi2DN_yguBrdaBMH7360A-QLW1lqsdb47&rid=0eaf0a65-9b69-11f0-b14d-d404e676c2e0&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=1&gdprApplies=0&st=330&mp4=1&h2=XSexv4R9dNKoGxFYdxhrkTotcHMnYqNGVwm8XjpUrITqUd95bTSEBwmXOMB8XK7TtkLn7pLwpeJMNUt8xsrhgg**
+                  - img [ref=f3e20] [cursor=pointer]
+    - contentinfo [ref=e158]:
+      - generic [ref=e159]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
