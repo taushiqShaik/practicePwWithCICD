@@ -2,18 +2,25 @@ import { Page } from "playwright";
 import { LoginPage } from "./LoginPage";
 import { TextBoxPage } from "./TextBoxPage";
 import { CheckBoxPage } from "./CheckBoxPage";
+import { RadioButtonPage } from "./RadioButtonPage";
 
 export class PageManager {
   private readonly page: Page;
   private readonly loginPage: LoginPage;
   private readonly textBoxPage: TextBoxPage;
   private readonly checkBoxPage: CheckBoxPage;
+  private readonly radioButtonPage: RadioButtonPage;
 
   constructor(page: Page) {
     this.page = page;
     this.loginPage = new LoginPage(this.page);
     this.textBoxPage = new TextBoxPage(this.page);
     this.checkBoxPage = new CheckBoxPage(this.page);
+    this.radioButtonPage = new RadioButtonPage(this.page);
+  }
+
+  onRadioButtonPage() {
+    return this.radioButtonPage;
   }
 
   onCheckBoxPage() {
