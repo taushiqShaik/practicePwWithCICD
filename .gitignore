@@ -7,11 +7,6 @@ node_modules/
 /playwright/.cache/
 allure-results/
 allure-report/
-allure-report/data/
-allure-report/export/
-allure-report/history/
-allure-report/widgets/
-allure-report/index.html
 reports/
 screenshots/
 videos/
