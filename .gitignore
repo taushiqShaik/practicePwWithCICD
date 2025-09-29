@@ -16,3 +16,11 @@ reports/
 screenshots/
 videos/
 trace/
+allure-report/data/behaviors.json
+allure-report/data/behaviors.json
+allure-report/data/categories.csv
+allure-report/data/categories.json
+allure-report/data/packages.json
+allure-report/data/suites.csv
+allure-report/data/suites.json
+allure-report/data/timeline.json
