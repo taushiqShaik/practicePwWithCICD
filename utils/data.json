@@ -6,5 +6,11 @@
     "fullName": "Automation user",
     "email": "test@email.com",
     "cAddress": "Flat No. 203, Green Residency,",
-    "pAddress": "Perm Residency, End"
+    "pAddress": "Perm Residency, End",
+    "firstName": "Auto",
+    "lastName": "User",
+    "userEmail": "test@email.com",
+    "age": "25",
+    "salary": "50000",
+    "department": "Engineering"
 }
