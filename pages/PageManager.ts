@@ -4,6 +4,7 @@ import { TextBoxPage } from "./TextBoxPage";
 import { CheckBoxPage } from "./CheckBoxPage";
 import { RadioButtonPage } from "./RadioButtonPage";
 import { WebTablesPage } from "./WebTablesPage";
+import { ButtonsPage } from "./ButtonsPage";
 
 export class PageManager {
   private readonly page: Page;
@@ -12,6 +13,7 @@ export class PageManager {
   private readonly checkBoxPage: CheckBoxPage;
   private readonly radioButtonPage: RadioButtonPage;
   private readonly webTablesPage: WebTablesPage;
+  private readonly buttonsPage: ButtonsPage;
 
   constructor(page: Page) {
     this.page = page;
@@ -20,6 +22,11 @@ export class PageManager {
     this.checkBoxPage = new CheckBoxPage(this.page);
     this.radioButtonPage = new RadioButtonPage(this.page);
     this.webTablesPage = new WebTablesPage(this.page);
+    this.buttonsPage = new ButtonsPage(this.page);
+  }
+
+  onButtonsPage() {
+    return this.buttonsPage;
   }
 
   onWebTablesPage() {
