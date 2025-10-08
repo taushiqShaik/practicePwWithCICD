@@ -17,7 +17,7 @@ test("Land on to the QA test page and practice web table excercise", async ({
 }) => {
   const pm = new PageManager(page);
 
-  await pm.onTextBoxPage().captureConsoleLogs();
+  // await pm.onTextBoxPage().captureConsoleLogs();
 
   await pm.onTextBoxPage().clickOnElementsLink();
   await pm.onWebTablesPage().clickOnWebTables();
