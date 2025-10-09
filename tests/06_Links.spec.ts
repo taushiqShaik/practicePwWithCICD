@@ -16,7 +16,7 @@ test("Links page - practice link exercise", async ({ page }) => {
   await pm.onTextBoxPage().clickOnElementsLink();
   await pm.onLinksPage().clickOnLinksPage();
   await pm.onLinksPage().verifyLinksHeader();
-  //   await pm.onLinksPage().clickOnStaticLinks();
-  //   await pm.onLinksPage().clickOnDynamicLinks();
+  await pm.onLinksPage().clickOnStaticLinks();
+  await pm.onLinksPage().clickOnDynamicLinks();
   await pm.onLinksPage().linksResponseValidation();
 });
