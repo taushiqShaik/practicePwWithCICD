@@ -10,7 +10,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto(testData.demoQA_url);
 });
 
-test.only("Links page - practice link exercise", async ({ page }) => {
+test("Links page - practice link exercise", async ({ page }) => {
   const pm = new PageManager(page);
 
   await pm.onTextBoxPage().clickOnElementsLink();
