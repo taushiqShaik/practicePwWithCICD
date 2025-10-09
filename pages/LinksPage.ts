@@ -61,45 +61,22 @@ export class LinksPage extends HelperBase {
   }
 
   async linksResponseValidation() {
-    const apiLinks = [
-      {
-        id: "created",
-        result: "Link has responded with staus 201 and status text Created",
-      },
-      {
-        id: "no-content",
-        result: "Link has responded with staus 204 and status text No Content",
-      },
-      {
-        id: "moved",
-        result:
-          "Link has responded with staus 301 and status text Moved Permanently",
-      },
-      {
-        id: "bad-request",
-        result: "Link has responded with staus 400 and status text Bad Request",
-      },
-      {
-        id: "unauthorized",
-        result:
-          "Link has responded with staus 401 and status text Unauthorized",
-      },
-      {
-        id: "forbidden",
-        result: "Link has responded with staus 403 and status text Forbidden",
-      },
-      {
-        id: "invalid-url",
-        result: "Link has responded with staus 404 and status text Not Found",
-      },
-    ];
 
-    for (const link of apiLinks) {
-      await this.page.locator(`#${link.id}`).click();
-      const result = this.page.locator(linkResponse);
-      await expect(result).toHaveText(link.result);
-      console.log(await result.textContent());
+    const apiLinks = [
+      { id: "created", result: "Link has responded with staus 201 and status text Created" },
+      { id: "no-content", result: "Link has responded with staus 204 and status text No Content"},
+      { id: "moved", result: "Link has responded with staus 301 and status text Moved Permanently"},
+      { id: "bad-request", result: "Link has responded with staus 400 and status text Bad Request"},
+      { id: "unauthorized", result: "Link has responded with staus 401 and status text Unauthorized"},
+      { id: "forbidden", result: "Link has responded with staus 403 and status text Forbidden"},
+      { id: "invalid-url", result: "Link has responded with staus 404 and status text Not Found"},
+    ]
+
+    for(const link of apiLinks){
+      await this.page.locator(`#${link.id}`).click()
+      const result = this.page.locator(linkResponse)
+      await expect(result).toHaveText(link.result)
+      console.log(await result.textContent())
     }
-    await this.waitForNumberOfSeconds(5);
   }
 }
