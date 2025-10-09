@@ -1,0 +1,15 @@
+module.exports = {
+  links: "//span[text()='Links']",
+  linksHeader: "//h1[text()='Links']",
+  homeSimpleLink: "#simpleLink",
+  homeDynamicLink: "#dynamicLink",
+  createdLink: "#created",
+  noContentLink: "#no-content",
+  movedLink: "#moved",
+  badRequestLink: "#bad-request",
+  unauthorizedLink: "#unauthorized",
+  forbiddenLink: "#forbidden",
+  notFoundLink: "#invalid-url",
+  createdMessage: "#linkResponse",
+  linkResponse: "//p[@id='linkResponse']",
+};

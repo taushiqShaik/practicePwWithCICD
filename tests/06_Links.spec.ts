@@ -10,14 +10,13 @@ test.beforeEach(async ({ page }) => {
   await page.goto(testData.demoQA_url);
 });
 
-test("Land on to the QA test page and practice button excercise", async ({
-  page,
-}) => {
+test.only("Links page - practice link exercise", async ({ page }) => {
   const pm = new PageManager(page);
-  await pm.onTextBoxPage().clickOnElementsLink();
-  await pm.onButtonsPage().checkButtonsHeader();
 
-  await pm.onButtonsPage().doubleClickButton();
-  await pm.onButtonsPage().rightClcikButton();
-  await pm.onButtonsPage().dynamicClickButton();
+  await pm.onTextBoxPage().clickOnElementsLink();
+  await pm.onLinksPage().clickOnLinksPage();
+  await pm.onLinksPage().verifyLinksHeader();
+  //   await pm.onLinksPage().clickOnStaticLinks();
+  //   await pm.onLinksPage().clickOnDynamicLinks();
+  await pm.onLinksPage().linksResponseValidation();
 });
