@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:report": "allure generate allure-results --clean -o allure-report", 
     "allure:open": "allure open allure-report",
-    "test:allure": "npm run test && npm run allure:report && npm run allure:open"
+    "test:allure": "npm run test && npm run allure:report && npm run allure:open",
+    "summary": "npx ts-node utils/summarizeResults.ts",
+    "test:email": "npm run test && npm run summary",
+    "test:complete": "npm run test && npm run allure:report && npm run summary",
+    "test-email": "node utils/testEmail.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +20,11 @@
   "devDependencies": {
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.5.2",
+    "@types/nodemailer": "^7.0.2",
     "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.4.1"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.9"
   }
 }
